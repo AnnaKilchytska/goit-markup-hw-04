@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="#" class="logo"><span class="logo-web">Web</span>Studio</a>
+          <ul class="list navigation-list">
+            <li class="list-item navigation-list-item">
+              <a href="index.html" class="nav-item header-item">Студія</a>
+            </li>
+            <li class="list-item navigation-list-item">
+              <a href="portfolio.html" class="nav-item header-item"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="list-item navigation-list-item">
+              <a href="#" class="nav-item header-item">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list navigation-list">
+          <li class="list-item navigation-list-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="header-item contact-list-item"
+            >
+              <svg class="header-icon">
+                <use href="./images/symbol-defs.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="list-item navigation-list-item">
+            <a href="tel:+380961111111" class="header-item contact-list-item">
+              <svg class="header-icon">
+                <use href="./images/symbol-defs.svg#phone"></use>
+              </svg>
+              +380961111111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="heading-section">
+        <div class="container">
+          <h1 class="heading-main">Ефективніші рішення для вашого бізнесу</h1>
+          <button type="button" class="order-button">Замовити послугу</button>
+        </div>
+      </section>
+      <section class="section features-section">
+        <div class="container">
+          <h2 class="heading-secondary visually-hidden">Наші переваги</h2>
+          <ul class="list features-list">
+            <li class="list-item features-item">
+              <div class="thumb">
+                <svg class="features-icon">
+                  <use href="./images/symbol-defs.svg#antenna"></use>
+                </svg>
+              </div>
+              <h3 class="features-heading">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="list-item features-item">
+              <h3 class="features-heading">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="list-item features-item">
+              <h3 class="features-heading">ПЛАНУВАННЯ</h3>
+              <p class="features-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="list-item features-item">
+              <h3 class="features-heading">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section photos-section">
+        <div class="container">
+          <h2 class="heading-secondary">Чим ми займаємося</h2>
+          <ul class="list photos-list">
+            <li class="list-item photos-list-item">
+              <img
+                class="photo"
+                src="images/image-1.jpg"
+                width="370"
+                alt="The working space of a programmer"
+              />
+            </li>
+            <li class="list-item photos-list-item">
+              <img
+                class="photo"
+                src="images/image-2.jpg"
+                width="370"
+                alt="A designer working on a project"
+              />
+            </li>
+            <li class="list-item photos-list-item">
+              <img
+                class="photo"
+                src="images/image-3.jpg"
+                alt="A color palette on a tablette screen"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section team-section">
+        <div class="container">
+          <h2 class="heading-secondary">Наша команда</h2>
+          <ul class="list team-list">
+            <li class="list-item team-list-item">
+              <img
+                src="images/photo-1.jpg"
+                width="270"
+                alt="Фото дизайнера Ігора Дем'яненка"
+              />
+              <div class="team-caption">
+                <h3 class="team-heading">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
+            </li>
+            <li class="list-item team-list-item">
+              <img
+                src="images/photo-2.jpg"
+                width="270"
+                alt="Фото фронтенд розробниці Ольги Рєпіної"
+              />
+              <div class="team-caption">
+                <h3 class="team-heading">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="list-item team-list-item">
+              <img
+                src="images/photo-3.jpg"
+                width="270"
+                alt="Фото маркетолога Миколи Тарасова"
+              />
+              <div class="team-caption">
+                <h3 class="team-heading">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
+            </li>
+            <li class="list-item team-list-item">
+              <img
+                src="images/photo-4.jpg"
+                width="270"
+                alt="Фото дизайнера Михайла Єрмакова"
+              />
+              <div class="team-caption">
+                <h3 class="team-heading">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="logo logo-footer"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
+        <address class="address-block">
+          <ul class="list address-contact-info">
+            <li class="list-item address-list-item">
+              <a
+                class="address"
+                href="https://goo.gl/maps/mu8JCDVC7BkaN3t28"
+                target="_blank"
+                rel="noopener noreferrer"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="list-item address-list-item">
+              <a class="address-additional" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="list-item address-list-item">
+              <a class="address-additional" href="tel:+380961111111"
+                >+380961111111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
